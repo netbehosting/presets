@@ -1,0 +1,40 @@
+{
+  "id": "survival",
+  "name": "Survival SMP",
+  "plugins": [
+    {
+      "name": "LuckPerms",
+      "source": "modrinth",
+      "slug": "luckperms"
+    },
+    {
+      "name": "Vault",
+      "source": "github",
+      "repo": "MilkBowl/Vault",
+      "asset": "Vault\\.jar"
+    },
+    {
+      "name": "EssentialsX",
+      "source": "github",
+      "repo": "EssentialsX/Essentials",
+      "asset": "EssentialsX-[0-9].*\\.jar"
+    },
+    {
+      "name": "CoreProtect",
+      "source": "modrinth",
+      "slug": "coreprotect"
+    },
+    {
+      "name": "GriefPrevention",
+      "source": "modrinth",
+      "slug": "griefprevention"
+    }
+  ],
+  "serverProperties": {
+    "difficulty": "normal",
+    "spawn-protection": "0",
+    "max-players": "20",
+    "pvp": "true"
+  },
+  "configFiles": []
+}

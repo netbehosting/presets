@@ -1,0 +1,44 @@
+{
+  "id": "skyblock",
+  "name": "Skyblock",
+  "plugins": [
+    {
+      "name": "LuckPerms",
+      "source": "modrinth",
+      "slug": "luckperms"
+    },
+    {
+      "name": "Vault",
+      "source": "github",
+      "repo": "MilkBowl/Vault",
+      "asset": "Vault\\.jar"
+    },
+    {
+      "name": "EssentialsX",
+      "source": "github",
+      "repo": "EssentialsX/Essentials",
+      "asset": "EssentialsX-[0-9].*\\.jar"
+    },
+    {
+      "name": "BentoBox",
+      "source": "github",
+      "repo": "BentoBoxWorld/BentoBox",
+      "asset": "BentoBox-[0-9].*\\.jar"
+    },
+    {
+      "name": "BSkyBlock",
+      "source": "github",
+      "repo": "BentoBoxWorld/BSkyBlock",
+      "asset": "BSkyBlock-[0-9].*\\.jar",
+      "dest": "plugins/BentoBox/addons/BSkyBlock.jar"
+    }
+  ],
+  "serverProperties": {
+    "difficulty": "normal",
+    "spawn-protection": "0",
+    "max-players": "20",
+    "level-type": "FLAT",
+    "generate-structures": "false"
+  },
+  "configFiles": []
+}

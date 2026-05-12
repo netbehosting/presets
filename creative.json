@@ -1,0 +1,35 @@
+{
+  "id": "creative",
+  "name": "Creative",
+  "plugins": [
+    {
+      "name": "LuckPerms",
+      "source": "modrinth",
+      "slug": "luckperms"
+    },
+    {
+      "name": "EssentialsX",
+      "source": "github",
+      "repo": "EssentialsX/Essentials",
+      "asset": "EssentialsX-[0-9].*\\.jar"
+    },
+    {
+      "name": "WorldEdit",
+      "source": "modrinth",
+      "slug": "worldedit"
+    },
+    {
+      "name": "WorldGuard",
+      "source": "modrinth",
+      "slug": "worldguard"
+    }
+  ],
+  "serverProperties": {
+    "difficulty": "peaceful",
+    "spawn-protection": "0",
+    "max-players": "20",
+    "gamemode": "1",
+    "pvp": "false"
+  },
+  "configFiles": []
+}

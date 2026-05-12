@@ -1,0 +1,34 @@
+{
+  "id": "basic-smp",
+  "name": "Basic SMP",
+  "plugins": [
+    {
+      "name": "LuckPerms",
+      "source": "modrinth",
+      "slug": "luckperms"
+    },
+    {
+      "name": "Vault",
+      "source": "github",
+      "repo": "MilkBowl/Vault",
+      "asset": "Vault\\.jar"
+    },
+    {
+      "name": "EssentialsX",
+      "source": "github",
+      "repo": "EssentialsX/Essentials",
+      "asset": "EssentialsX-[0-9].*\\.jar"
+    },
+    {
+      "name": "WorldEdit",
+      "source": "modrinth",
+      "slug": "worldedit"
+    }
+  ],
+  "serverProperties": {
+    "difficulty": "normal",
+    "spawn-protection": "16",
+    "max-players": "20"
+  },
+  "configFiles": []
+}

@@ -1,0 +1,40 @@
+{
+  "id": "lifesteal",
+  "name": "Lifesteal SMP",
+  "plugins": [
+    {
+      "name": "LuckPerms",
+      "source": "modrinth",
+      "slug": "luckperms"
+    },
+    {
+      "name": "Vault",
+      "source": "github",
+      "repo": "MilkBowl/Vault",
+      "asset": "Vault\\.jar"
+    },
+    {
+      "name": "EssentialsX",
+      "source": "github",
+      "repo": "EssentialsX/Essentials",
+      "asset": "EssentialsX-[0-9].*\\.jar"
+    },
+    {
+      "name": "LifeStealZ",
+      "source": "modrinth",
+      "slug": "lifestealz"
+    }
+  ],
+  "serverProperties": {
+    "difficulty": "hard",
+    "spawn-protection": "0",
+    "max-players": "20",
+    "pvp": "true"
+  },
+  "configFiles": [
+    {
+      "path": "plugins/LifeStealZ/config.yml",
+      "content": "# LifeStealZ Configuration\nstartHearts: 20\nmaxHearts: 40\nminHearts: 2\nheartsPerKill: 2\nheartsLostOnDeath: 2\nreviveEnabled: true\nreviveCooldown: 0\neliminated:\n  enabled: true\n  spectatorMode: true\n"
+    }
+  ]
+}

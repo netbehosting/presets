@@ -1,0 +1,11 @@
+{
+  "id": "none",
+  "name": "Vanilla SMP",
+  "plugins": [],
+  "serverProperties": {
+    "difficulty": "normal",
+    "spawn-protection": "16",
+    "max-players": "20"
+  },
+  "configFiles": []
+}
