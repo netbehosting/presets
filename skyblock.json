@@ -1,6 +1,11 @@
 {
   "id": "skyblock",
   "name": "Skyblock",
+  "files": [
+    {
+      "archive": "bundles/lobby.tar.gz"
+    }
+  ],
   "plugins": [
     {
       "name": "LuckPerms",
@@ -20,6 +25,32 @@
       "asset": "EssentialsX-[0-9].*\\.jar"
     },
     {
+      "name": "FastAsyncWorldEdit",
+      "source": "modrinth",
+      "slug": "fastasyncworldedit"
+    },
+    {
+      "name": "WorldGuard",
+      "source": "modrinth",
+      "slug": "worldguard"
+    },
+    {
+      "name": "Skript",
+      "source": "github",
+      "repo": "SkriptLang/Skript",
+      "asset": "Skript-[0-9].*\\.jar"
+    },
+    {
+      "name": "DecentHolograms",
+      "source": "modrinth",
+      "slug": "decentholograms"
+    },
+    {
+      "name": "Multiverse-Core",
+      "source": "modrinth",
+      "slug": "multiverse-core"
+    },
+    {
       "name": "BentoBox",
       "source": "github",
       "repo": "BentoBoxWorld/BentoBox",
@@ -37,8 +68,14 @@
     "difficulty": "normal",
     "spawn-protection": "0",
     "max-players": "20",
-    "level-type": "FLAT",
+    "level-name": "world",
+    "level-type": "flat",
     "generate-structures": "false"
   },
-  "configFiles": []
+  "configFiles": [
+    {
+      "path": "plugins/DecentHolograms/holograms/Lobby_Info.yml",
+      "content": "location: world:38.500:35.500:28.500\nenabled: true\ndisplay-range: 48\nupdate-range: 48\nupdate-interval: 20\norigin: file\ndown-origin: false\npages:\n  - lines:\n      - content: '&b&l✦ NETBE SKYBLOCK ✦'\n      - content: '&7Welcome to your &6&lNet&f&lBe &7Skyblock server!'\n      - content: '&f'\n      - content: '&a/is &8— &fCreate & manage your island'\n      - content: '&a/hub &8— &fReturn to the lobby anytime'\n      - content: '&a/help &8— &fView all commands'\n      - content: '&f'\n      - content: '&9&l/discord &8— &fJoin our community for support'\n"
+    }
+  ]
 }

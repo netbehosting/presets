@@ -1,11 +1,22 @@
 {
   "id": "creative",
   "name": "Creative",
+  "files": [
+    {
+      "archive": "bundles/lobby.tar.gz"
+    }
+  ],
   "plugins": [
     {
       "name": "LuckPerms",
       "source": "modrinth",
       "slug": "luckperms"
+    },
+    {
+      "name": "Vault",
+      "source": "github",
+      "repo": "MilkBowl/Vault",
+      "asset": "Vault\\.jar"
     },
     {
       "name": "EssentialsX",
@@ -14,14 +25,30 @@
       "asset": "EssentialsX-[0-9].*\\.jar"
     },
     {
-      "name": "WorldEdit",
+      "name": "FastAsyncWorldEdit",
       "source": "modrinth",
-      "slug": "worldedit"
+      "slug": "fastasyncworldedit"
     },
     {
       "name": "WorldGuard",
       "source": "modrinth",
       "slug": "worldguard"
+    },
+    {
+      "name": "Skript",
+      "source": "github",
+      "repo": "SkriptLang/Skript",
+      "asset": "Skript-[0-9].*\\.jar"
+    },
+    {
+      "name": "DecentHolograms",
+      "source": "modrinth",
+      "slug": "decentholograms"
+    },
+    {
+      "name": "Multiverse-Core",
+      "source": "modrinth",
+      "slug": "multiverse-core"
     }
   ],
   "serverProperties": {
@@ -29,7 +56,15 @@
     "spawn-protection": "0",
     "max-players": "20",
     "gamemode": "1",
-    "pvp": "false"
+    "pvp": "false",
+    "level-name": "world",
+    "level-type": "flat",
+    "generate-structures": "false"
   },
-  "configFiles": []
+  "configFiles": [
+    {
+      "path": "plugins/DecentHolograms/holograms/Lobby_Info.yml",
+      "content": "location: world:38.500:35.500:28.500\nenabled: true\ndisplay-range: 48\nupdate-range: 48\nupdate-interval: 20\norigin: file\ndown-origin: false\npages:\n  - lines:\n      - content: '&d&l✦ NETBE CREATIVE ✦'\n      - content: '&7Welcome to your &6&lNet&f&lBe &7Creative server!'\n      - content: '&f'\n      - content: '&a//wand &8— &fStart building with WorldEdit'\n      - content: '&a/hub &8— &fReturn to the lobby anytime'\n      - content: '&a/help &8— &fView all commands'\n      - content: '&f'\n      - content: '&9&l/discord &8— &fJoin our community for support'\n"
+    }
+  ]
 }
