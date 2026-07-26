@@ -44,6 +44,11 @@ and points `<preset-id>.json` at it. Re-run any time you tweak the server.
 For lightweight presets, the manifest lists plugins to download and small config
 to write — no prebuilt files. Fields:
 
+- `minecraftVersion` — optional. Pins the Paper/Minecraft version this preset is
+  built and tested against. Use it whenever the preset ships prebuilt files or
+  depends on plugins that lag behind the newest Minecraft release. A version the
+  customer sets explicitly on the server still wins; otherwise this pin wins over
+  "latest".
 - `plugins[]` — `{ name, source: modrinth|github|direct, slug|repo+asset|url, dest? }`
 - `serverProperties{}` — keys merged into `server.properties`
 - `configFiles[]` — `{ path, content }` written verbatim

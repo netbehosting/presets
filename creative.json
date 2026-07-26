@@ -1,6 +1,7 @@
 {
   "id": "creative",
   "name": "Creative",
+  "minecraftVersion": "1.21.11",
   "files": [
     {
       "archive": "bundles/lobby.tar.gz"
@@ -64,7 +65,7 @@
   "configFiles": [
     {
       "path": "plugins/DecentHolograms/holograms/Lobby_Info.yml",
-      "content": "location: world:38.500:35.500:28.500\nenabled: true\ndisplay-range: 48\nupdate-range: 48\nupdate-interval: 20\norigin: file\ndown-origin: false\npages:\n  - lines:\n      - content: '&d&l✦ NETBE CREATIVE ✦'\n      - content: '&7Welcome to your &6&lNet&f&lBe &7Creative server!'\n      - content: '&f'\n      - content: '&a//wand &8— &fStart building with WorldEdit'\n      - content: '&a/hub &8— &fReturn to the lobby anytime'\n      - content: '&a/help &8— &fView all commands'\n      - content: '&f'\n      - content: '&9&l/discord &8— &fJoin our community for support'\n"
+      "content": "location: world:38.500:35.500:28.500\nenabled: true\ndisplay-range: 48\nupdate-range: 48\nupdate-interval: 20\norigin: file\ndown-origin: false\npages:\n  - lines:\n      - content: '&d&l\u2726 NETBE CREATIVE \u2726'\n      - content: '&7Welcome to your &6&lNet&f&lBe &7Creative server!'\n      - content: '&f'\n      - content: '&a//wand &8\u2014 &fStart building with WorldEdit'\n      - content: '&a/hub &8\u2014 &fReturn to the lobby anytime'\n      - content: '&a/help &8\u2014 &fView all commands'\n      - content: '&f'\n      - content: '&9&l/discord &8\u2014 &fJoin our community for support'\n"
     }
   ]
 }

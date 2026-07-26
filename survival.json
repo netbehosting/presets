@@ -1,6 +1,7 @@
 {
   "id": "survival",
   "name": "Survival SMP",
+  "minecraftVersion": "1.21.11",
   "plugins": [
     {
       "name": "LuckPerms",

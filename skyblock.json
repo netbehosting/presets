@@ -1,5 +1,6 @@
 {
   "id": "skyblock",
   "name": "Skyblock",
+  "minecraftVersion": "1.21.11",
   "serverArchive": "https://github.com/netbehosting/presets/releases/download/preset-skyblock/server.tar.gz"
 }
